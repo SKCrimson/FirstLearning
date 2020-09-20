@@ -14,5 +14,7 @@ public class Main {
 		System.out.println(box1.equals(box2)
 				? "box1 == box2"
 				: "box1 != box2");
+
+		RecTest recTest = new RecTest(10);
     }
 }
