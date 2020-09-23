@@ -3,7 +3,7 @@ package krivoshein.learning;
 public class Main {
 
     public static void main(String[] args) {
-	    System.out.println("--- First learning app ---");
+	   /* System.out.println("--- First learning app ---");
 
 	    Box box1 = new Box(7, 3,4);
 	    box1.printVolume();
@@ -15,6 +15,10 @@ public class Main {
 				? "box1 == box2"
 				: "box1 != box2");
 
-		RecTest recTest = new RecTest(10);
+        RecTest recTest = new RecTest(10);*/
+
+        PassArgs.vTest(5);
+        PassArgs.vTest(1, 2, 3);
+        PassArgs.vTest();
     }
 }
